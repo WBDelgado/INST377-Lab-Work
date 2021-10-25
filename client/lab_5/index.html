@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab 5: HTML 2 - HTML Forms, HTTP Methods, REST APIs</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  
+  <body class="p-6" style = "background-color: rgb(7, 24, 34) "  >
+    <div class="block">
+    <div class="notification has-background-warning" style = "margin-right: 50px;">
+        <div class="is-size-2">
+        Wilfredo Delgado Lab 5
+        </div>
+    </div>
+    </div>
+    <div class="level-item">
+        <div class="columns is-vcentered is-3 is-gapless >
+            <div class="column">
+            <form action="/api" method= "get"  class="box" style="width: 85%">
+        
+            <div class="field" style = "height: 70">
+                <label class="label">First Name</label>
+                <div class="control">
+                    <input name ="firstName" class="input is-small" type="text" placeholder="">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Food Preference</label>
+                <div class="control">
+                    <input name="food_preference" class="input is-small" type="text" placeholder="">
+                </div>
+            </div>
+            <div class="control">
+                <label class="label"> Veggie or Vegan?</label>
+                <label class="radio">
+                    <input type="radio" name="answer">
+                    Yes
+                </label>
+                <label class="radio">
+                    <input type="radio" name="answer">
+                    No
+                </label>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-success"> Submit </button>
+            </div>
+          </div>  
+        </form>
+        </div>       
+        
+    
+
+        <div class="column">
+        <div class="box" style="width: 30%" >
+        This is going to be something in two weeks.
+         </div>
+        </div>
+    </div>
+    </div>
+
+  </body>
+</html>
